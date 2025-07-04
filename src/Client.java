@@ -2,9 +2,9 @@ public class Client {
     String name;
     int age;
     float weight;
-    float height;
+    double height;
 
-    public void Get_Client_Data(String name, int age, float weight, float height){
+    public  void Get_Client_Data(String name, int age, float weight, double height){
         this.name = name;
         this.age = age;
         this.weight = weight;
@@ -17,4 +17,8 @@ public class Client {
         System.out.println("Height         : "+height);
     }
 
+    public static void main(String[] args) {
+        Client client = new Client();
+        client.Get_Client_Data("Hansraj hathi",40,150,5.5);
+    }
 }
