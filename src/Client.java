@@ -4,7 +4,7 @@ public class Client {
     float weight;
     double height;
 
-    public  void Get_Client_Data(String name, int age, float weight, double height){
+    public void Get_Client_Data(String name, int age, float weight, double height){
         this.name = name;
         this.age = age;
         this.weight = weight;
@@ -16,9 +16,9 @@ public class Client {
         System.out.println("Weight         : "+weight);
         System.out.println("Height         : "+height);
     }
-
-    public static void main(String[] args) {
-        Client client = new Client();
-        client.Get_Client_Data("Hansraj hathi",40,150,5.5);
-    }
+//
+//    public static void main(String[] args) {
+//        Client client = new Client();
+//
+//    }
 }
