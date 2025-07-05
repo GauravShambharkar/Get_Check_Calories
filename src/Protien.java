@@ -1,9 +1,11 @@
-public class Protien {
-    float food_Source_Weight;
 
-    public Protien(float food_Source_Weight){
-        this.food_Source_Weight = food_Source_Weight;
-        double protien_Intake = food_Source_Weight * 4;
-        System.out.println("your daily Protien intake : "+protien_Intake);
+// Protein calculation class
+class Protein {
+    float foodSourceWeight;
+
+    public Protein(float foodSourceWeight) {
+        this.foodSourceWeight = foodSourceWeight;
+        double proteinIntake = foodSourceWeight * 4;  // 1g protein = 4 kcal
+        System.out.println("Protein Intake: " + proteinIntake + " kcal");
     }
 }

@@ -1,8 +1,11 @@
-public class Fats {
-    float food_Source_Weight;
-    public Fats(float food_Source_Weight){
-        this.food_Source_Weight = food_Source_Weight;
-        double Fat_Intake = food_Source_Weight * 9;
-        System.out.println("your daily Fats intake : "+Fat_Intake);
+
+// Fat calculation class
+class Fats {
+    float foodSourceWeight;
+
+    public Fats(float foodSourceWeight) {
+        this.foodSourceWeight = foodSourceWeight;
+        double fatIntake = foodSourceWeight * 9;  // 1g fat = 9 kcal
+        System.out.println("Fat Intake: " + fatIntake + " kcal");
     }
 }
