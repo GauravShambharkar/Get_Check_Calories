@@ -4,7 +4,7 @@ public class MainApp {
 
         // Step 1: Create a client and input their data
         Client client = new Client();
-        client.setClientData("John Doe", 28, 71.0f, 175.0);  // name, age, weight, height
+        client.setClientData("John Doe", 28, 71.0f, 175.0d);  // name, age, weight, height
 
         // Step 2: Pass client object to Calories class
         Calories calories = new Calories(client);
