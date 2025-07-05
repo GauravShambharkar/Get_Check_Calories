@@ -18,9 +18,15 @@ public class Client {
         System.out.println("Weight         : "+weight);
         System.out.println("Height         : "+height);
     }
+
+
 //
-//    public static void main(String[] args) {
-//        Client client = new Client();
-//
-//    }
+    public static void main(String[] args) {
+        Calories calories = new Calories();
+        calories.maintainance_calories(70,90);
+        calories.calorie_Deficit();
+        calories.calorie_Surplus();
+
+
+    }
 }
