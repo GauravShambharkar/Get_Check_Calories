@@ -34,6 +34,7 @@
 // Client class to store client details
 
 public class Client {
+
     String name;
     int age;
     float weight;

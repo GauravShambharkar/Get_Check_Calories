@@ -11,6 +11,7 @@ class Calories {
         this.client = client;
     }
 
+
     // Maintenance calories = weight x 15 (sample formula, can vary)
     public void maintenanceCalories() {
         double maintenance = weight * 15;

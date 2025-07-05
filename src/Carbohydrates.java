@@ -6,5 +6,6 @@ class Carbohydrates {
         this.foodSourceWeight = foodSourceWeight;
         double carbIntake = foodSourceWeight * 4;  // 1g carb = 4 kcal
         System.out.println("Carbohydrate Intake: " + carbIntake + " kcal");
+
     }
 }

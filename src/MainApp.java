@@ -18,4 +18,5 @@ public class MainApp {
         new Protein(120);        // 120g protein source
         new Fats(70);            // 70g fat source
     }
+
 }
